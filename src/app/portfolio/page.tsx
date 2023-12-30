@@ -1,10 +1,10 @@
-import HomePage from "@/components/page-components/HomePage";
+import OurPortfolio from "@/components/page-components/OurPortfolio";
 import React from "react";
 
 export default function page() {
   return (
     <div>
-      <HomePage />
+      <OurPortfolio />
     </div>
   );
 }
