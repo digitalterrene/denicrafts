@@ -52,21 +52,23 @@ export function CarouselCustomArrows() {
     >
       <div
         style={{
-          backgroundImage: `url('https://img.freepik.com/free-photo/still-life-wood-engraving-workshop_23-2149185419.jpg?size=626&ext=jpg&uid=R86751016&ga=GA1.2.1135384207.1703006759&semt=sph')`,
+          backgroundImage: `url('/images/main-image.jpg')`,
         }}
         className="h-full lg:flex items-center px-8 lg:px-40 justify-between w-full bg-center bg-cover"
       >
-        <div className=" lg:w-1/2  py-8 lg:py-0">
+        <div className=" lg:w-2/3  py-8 lg:py-0">
           <p className="text-xl lg:text-3xl font-medium mb-5 text-white">
-            WELCOME TO CRAFTSMAN WHO WE ARE
+            Welcome to DeniCrafts – Where Craftsmanship Meets Precision
+            Carpentry
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure odio
-            praesentium sed dignissimos atque enim dolorum assumenda eos vitae,
-            mollitia rem, nam laborum expedita{" "}
+          <p className="text-[#B88A4D] p-4 bg-white/40">
+            At DeniCrafts, we take pride in turning your carpentry dreams into
+            solid realities. As your dedicated carpentry contractor, we bring
+            skill, passion, and attention to detail to every project, ensuring a
+            seamless blend of functionality and aesthetics
           </p>
           <button className="mt-16 px-8 bg-[#B88A4D] text-white p-3">
-            Buy It Now
+            Contact Us
           </button>
         </div>
         <div className="hidden lg:block">
@@ -75,13 +77,41 @@ export function CarouselCustomArrows() {
       </div>
       <div
         style={{
-          backgroundImage: `url('https://img.freepik.com/free-photo/top-view-carpenter-set-tools_23-2148428306.jpg?size=626&ext=jpg&uid=R86751016&ga=GA1.2.1135384207.1703006759&semt=sph')`,
+          backgroundImage: `url('/images/main-2.jpg')`,
         }}
-        className="h-full w-full bg-center bg-cover"
-      ></div>
+        className="h-full lg:flex items-center px-8 lg:px-40 justify-between w-full bg-center bg-cover"
+      >
+        <div className=" lg:w-2/3 space-y-4 py-8 lg:py-0">
+          <p className="text-xl lg:text-3xl font-medium mb-5 text-white">
+            Craftsmanship Excellence
+          </p>
+          <p className="bg-[#B88A4D]/60 text-white p-4  ">
+            Each project is a testament to our commitment to unparalleled
+            craftsmanship.
+          </p>
+          <p className="text-xl lg:text-3xl font-medium mb-5 text-white">
+            Tailored Solutions
+          </p>
+          <p className="bg-[#B88A4D]/60 text-white p-4  ">
+            Your vision, our expertise – together, we create spaces that
+            resonate with your unique style.
+          </p>
+          <p className="text-xl lg:text-3xl font-medium mb-5 text-white">
+            Reliability
+          </p>
+          <p className="bg-[#B88A4D]/60 text-white p-4  ">
+            Trust a contractor that values your time and ensures timely project
+            completion.
+          </p>
+        </div>
+        <div className="hidden lg:block">
+          <img src="/images/denis1.png" className="w-96" />
+        </div>
+      </div>
+
       <div
         style={{
-          backgroundImage: `url('https://img.freepik.com/free-photo/close-up-photo-cutting-wood-with-fretsaw_176420-4786.jpg?size=626&ext=jpg&uid=R86751016&ga=GA1.2.1135384207.1703006759&semt=sph')`,
+          backgroundImage: `url('/images/main-3.jpg')`,
         }}
         className="h-full px-8 lg:px-40 lg:flex flex-col justify-center w-full bg-center bg-cover"
       >
@@ -90,9 +120,15 @@ export function CarouselCustomArrows() {
             Design - Quality - Experience
           </p>
           <div className="bg-white w-32 my-10 h-1.5"> </div>
-          <p className="text-white my-4">We love art</p>
+          <p className="text-white w-1/2 text-center my-4">
+            Each project is a testament to our commitment to unparalleled
+            craftsmanship. Ready to transform your space with DeniCrafts?
+            Contact us today for a consultation, and let's embark on a carpentry
+            journey that exceeds your expectations. Your dream space is just a
+            call away!
+          </p>
           <button className="mt-16 px-8 bg-[#B88A4D] text-white p-3">
-            Buy It Now
+            Contact Us
           </button>
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function TopHeader() {
       <div className="lg:flex items-center gap-4">
         <div className="flex gap-3 text-sm items-center">
           <FaPhoneAlt className="" />
-          <p>073 910 6660</p>
+          <p>073 910 6660 || 062 896 7314</p>
         </div>
         <div className="flex gap-3 text-sm items-center">
           <FaRegClock className="" />
