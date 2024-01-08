@@ -42,10 +42,9 @@ export const metadata: Metadata = {
     "tilers in Johannesburg,Gauteng",
     "painters in Johannesburg,Gauteng",
   ],
-  image:
-    "https://smanga-the-builder.vercel.app/_next/static/media/smanga.d036c194.png",
-  url: "https://smanga-the-builder.vercel.app/",
-  siteName: "Smanga the Builder",
+  image: "/brand/logo.png",
+  url: "https://denicrafts.vertueal.com",
+  siteName: "Denicrafts",
   type: "website",
   locale: "en_US",
   author: "Denicrafts",

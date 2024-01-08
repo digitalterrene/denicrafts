@@ -5,8 +5,12 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import { IoPeopleOutline } from "react-icons/io5";
-import { RiShieldStarLine } from "react-icons/ri";
+import {
+  IoPeopleOutline,
+  IoPlanetOutline,
+  IoTimerOutline,
+} from "react-icons/io5";
+import { TbClover, TbCut } from "react-icons/tb";
 import { MdOutlineSettingsSuggest } from "react-icons/md";
 export function WhyChooseUsAccordion() {
   const [open, setOpen] = React.useState(1);
@@ -23,22 +27,21 @@ export function WhyChooseUsAccordion() {
                 open === 1 ? "border-[#B88A4D]" : "text-gray-400"
               } p-2 border `}
             >
-              <RiShieldStarLine
+              <IoPlanetOutline
                 className={`${
                   open === 1 ? "text-[#B88A4D]" : "text-gray-400"
                 } text-2xl `}
               />
             </div>
-            <p>12 Years Of Experience In Woodwork Business</p>
+            <p>Your Vision, Our Mission</p>
           </div>
         </AccordionHeader>
         <AccordionBody>
-          Groovin' all week with you. And we'll do it our way yes our way. Make
-          all our dreams come true for me and you. You wanna be where you can
-          see our troubles are all the same. You wanna be where everybody knows
-          Your name. It's time to play the music. Then one day he was shootin'
-          at some food and up through the ground came a bubblin' crude. Oil that
-          is. Here's the story of a lovely lady who was bringing
+          Choosing DeniCrafts means choosing a partner that is committed to
+          bringing your vision to life. We see each project as a collaboration,
+          understanding your unique requirements and translating them into
+          beautifully crafted solutions that seamlessly blend with your
+          lifestyle.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 2}>
@@ -49,22 +52,20 @@ export function WhyChooseUsAccordion() {
                 open === 2 ? "border-[#B88A4D]" : "text-gray-400"
               } p-2 border `}
             >
-              <IoPeopleOutline
+              <TbCut
                 className={`${
                   open === 2 ? "text-[#B88A4D]" : "text-gray-400"
                 } text-2xl `}
               />
             </div>
-            <p>More than 50 Regular Customers</p>
+            <p>Tailored for You</p>
           </div>
         </AccordionHeader>
         <AccordionBody>
-          Groovin' all week with you. And we'll do it our way yes our way. Make
-          all our dreams come true for me and you. You wanna be where you can
-          see our troubles are all the same. You wanna be where everybody knows
-          Your name. It's time to play the music. Then one day he was shootin'
-          at some food and up through the ground came a bubblin' crude. Oil that
-          is. Here's the story of a lovely lady who was bringing
+          Your home is an extension of yourself, and we believe that every piece
+          of carpentry should reflect your personality. DeniCrafts specializes
+          in tailoring solutions that go beyond expectations, ensuring that your
+          living spaces are as unique as you are.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 3}>
@@ -75,22 +76,44 @@ export function WhyChooseUsAccordion() {
                 open === 3 ? "border-[#B88A4D]" : "text-gray-400"
               } p-2 border `}
             >
-              <MdOutlineSettingsSuggest
+              <IoTimerOutline
                 className={`${
                   open === 3 ? "text-[#B88A4D]" : "text-gray-400"
                 } text-2xl `}
               />
             </div>
-            <p>Using Latest Technology In Our Work</p>
+            <p>Reliability, Every Time</p>
           </div>
         </AccordionHeader>
         <AccordionBody>
-          Groovin' all week with you. And we'll do it our way yes our way. Make
-          all our dreams come true for me and you. You wanna be where you can
-          see our troubles are all the same. You wanna be where everybody knows
-          Your name. It's time to play the music. Then one day he was shootin'
-          at some food and up through the ground came a bubblin' crude. Oil that
-          is. Here's the story of a lovely lady who was bringing
+          Time is of the essence, and we value yours. DeniCrafts is synonymous
+          with reliability and timely delivery. When you choose us, you choose a
+          partner who understands the importance of deadlines and ensures that
+          your project is completed to perfection, as promised.
+        </AccordionBody>
+      </Accordion>
+      <Accordion open={open === 4}>
+        <AccordionHeader onClick={() => handleOpen(4)}>
+          <div className="flex items-center gap-3">
+            <div
+              className={`rounded-full ${
+                open === 4 ? "border-[#B88A4D]" : "text-gray-400"
+              } p-2 border `}
+            >
+              <TbClover
+                className={`${
+                  open === 4 ? "text-[#B88A4D]" : "text-gray-400"
+                } text-2xl `}
+              />
+            </div>
+            <p>Crafting Memories, One Piece at a Time</p>
+          </div>
+        </AccordionHeader>
+        <AccordionBody>
+          More than carpentry, we are in the business of crafting memories.
+          DeniCrafts believes that every piece we create contributes to the
+          stories and memories of your home. Choose us, and let's craft a legacy
+          together, one piece at a time.
         </AccordionBody>
       </Accordion>
     </>

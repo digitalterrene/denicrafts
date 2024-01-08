@@ -10,12 +10,12 @@ import {
 import { services } from "@/assets/data";
 
 export default function ServicesTabs() {
-  const [activeTab, setActiveTab] = React.useState("html");
+  const [activeTab, setActiveTab] = React.useState("Installations and Repairs");
   const data = [
     {
-      label: "Installation and Repair",
+      label: "Installations and Repairs",
       icon: "https://cdn-icons-png.flaticon.com/128/4918/4918627.png",
-      value: "Installation and Repair",
+      value: "Installations and Repairs",
     },
     {
       label: "Flooring Solutions",
@@ -23,14 +23,14 @@ export default function ServicesTabs() {
       value: "Flooring Solutions",
     },
     {
-      label: "Custom Woodwork",
-      icon: "https://cdn-icons-png.flaticon.com/128/13549/13549226.png",
-      value: "Custom Woodwork",
+      label: "Painting & Varnishing",
+      icon: "https://cdn-icons-png.flaticon.com/128/1815/1815785.png",
+      value: "Painting & Varnishing",
     },
     {
-      label: "Outdoor Structures",
-      icon: "https://cdn-icons-png.flaticon.com/128/3465/3465054.png",
-      value: "Outdoor Structures",
+      label: "Rhinolite & Plastering",
+      icon: "https://cdn-icons-png.flaticon.com/128/11060/11060648.png",
+      value: "Rhinolite & Plastering",
     },
   ];
   return (
@@ -59,7 +59,7 @@ export default function ServicesTabs() {
         ))}
       </TabsHeader>
       <TabsBody className=" lg:mt-20">
-        {services.map(({ name, tagline, desc }, i) => (
+        {services.map(({ name, image, tagline, desc }, i) => (
           <TabPanel key={i} value={name}>
             <div className="lg:flex space-y-4 lg:space-y-0 gap-20 py-10 max-w-6xl mx-auto ">
               <div>
@@ -73,7 +73,7 @@ export default function ServicesTabs() {
               </div>{" "}
               <img
                 className="h-[500px] w-[450px] object-center object-cover "
-                src="https://images.unsplash.com/photo-1687422810663-c316494f725a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBjYXJwZW50ZXJ8ZW58MHx8MHx8fDA%3D"
+                src={image}
               />
             </div>
           </TabPanel>

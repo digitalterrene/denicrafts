@@ -54,7 +54,7 @@ export function CarouselCustomArrows() {
         style={{
           backgroundImage: `url('/images/main-image.jpg')`,
         }}
-        className="h-full lg:flex items-center px-8 lg:px-40 justify-between w-full bg-center bg-cover"
+        className="h-full gap-6 lg:flex items-center px-8 lg:px-40 justify-between w-full bg-center bg-cover"
       >
         <div className=" lg:w-2/3  py-8 lg:py-0">
           <p className="text-xl lg:text-3xl font-medium mb-5 text-white">
@@ -72,14 +72,17 @@ export function CarouselCustomArrows() {
           </button>
         </div>
         <div className="hidden lg:block">
-          <img src="/images/denis1.png" className="w-96" />
+          <img
+            src="https://img.freepik.com/free-photo/side-view-worker-using-drill_23-2149916248.jpg?size=626&ext=jpg&ga=GA1.1.1963481539.1704550986&semt=sph"
+            className="w-96 h-[500px] object-cover object-center"
+          />
         </div>
       </div>
       <div
         style={{
           backgroundImage: `url('/images/main-2.jpg')`,
         }}
-        className="h-full lg:flex items-center px-8 lg:px-40 justify-between w-full bg-center bg-cover"
+        className="h-full lg:flex gap-6 items-center px-8 lg:px-40 justify-between w-full bg-center bg-cover"
       >
         <div className=" lg:w-2/3 space-y-4 py-8 lg:py-0">
           <p className="text-xl lg:text-3xl font-medium mb-5 text-white">
@@ -105,7 +108,10 @@ export function CarouselCustomArrows() {
           </p>
         </div>
         <div className="hidden lg:block">
-          <img src="/images/denis1.png" className="w-96" />
+          <img
+            src="https://img.freepik.com/free-photo/cardboard-house-repair-tools-with-copy-space_23-2148393078.jpg?w=740&t=st=1704734188~exp=1704734788~hmac=b598cd49ab64a0bed48961f42b12a6fe8b4428addf038d66d85f2c3cf44b363a"
+            className="w-96 h-[500px] object-cover object-center"
+          />
         </div>
       </div>
 
@@ -120,7 +126,7 @@ export function CarouselCustomArrows() {
             Design - Quality - Experience
           </p>
           <div className="bg-white w-32 my-10 h-1.5"> </div>
-          <p className="text-white w-1/2 text-center my-4">
+          <p className="text-white w-2/3 text-center my-4">
             Each project is a testament to our commitment to unparalleled
             craftsmanship. Ready to transform your space with DeniCrafts?
             Contact us today for a consultation, and let's embark on a carpentry

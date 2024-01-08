@@ -12,7 +12,7 @@ export default function AboutUs() {
         className="bg-cover   bg-bottom bg-no-repeat"
       >
         <div className="  bg-black/70 p-20 text-center ">
-          <p className="text-4xl font-bold text-white">OUR GALLERY</p>
+          <p className="text-4xl font-bold text-white">OUR SERVICES</p>
         </div>
       </div>
       <div className=" ">

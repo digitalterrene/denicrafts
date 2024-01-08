@@ -1,55 +1,61 @@
 export const services = [
   {
-    name: "Installation and Repair",
+    name: "Installations and Repairs",
+    image: "/images/door.jpeg",
     tagline:
-      "Proficient Installation and Repair Services for Doors, Windows, and More",
-    desc: ` Proficient Installation and Repair Services for Doors, Windows, and More
-            Our carpentry expertise extends to proficient installation and repair services,
-            specializing in doors, windows, and beyond. When it comes to doors, we understand 
-            the dual importance of security and aesthetics. Our team excels in 
-            installing solid doors that not only safeguard your home but also add a touch 
-            of elegance. Additionally, we offer meticulous repair and enhancement services 
-            for windows, focusing on improved insulation and enhanced aesthetics. 
-            From minor fixes to major installations, our carpentry team approaches each task 
-            with precision and dedication, ensuring your home not only looks great but 
-            functions flawlessly.`,
+      "Proficient Installation and Repair Services for Doors,Ceilings,Partitions, Windows, and More",
+    desc: ` We do more than carpentry at DeniCrafts – we curate experiences. 
+            With our proficient installation and repair services, witness a seamless blend of 
+            craftsmanship and precision that goes beyond the ordinary. From expertly handling doors, 
+            ceilings, and partitions to ensuring the smooth functionality of windows, 
+            we meticulously craft every detail of your space. At DeniCrafts, we don't just offer 
+            services; we create transformative experiences that elevate the aesthetic and 
+            functionality of your surroundings. Trust us to bring your vision to life with 
+            unparalleled skill and dedication, turning each element we touch into a masterpiece. 
+            Your space, our expertise – together, we redefine excellence in carpentry.`,
   },
   {
     name: "Flooring Solutions",
+    image: "/images/floor.jpeg",
     tagline:
-      "Elevate Your Space with Expert Laminate Flooring Installation and Repair",
-    desc: ` Experience the transformative power of flooring with our expert laminate 
-            flooring services. Whether you're looking to replace outdated materials or install 
-            new laminate surfaces, our carpenters bring a meticulous approach to ensure a 
-            flawless finish. We believe in the importance of flooring as the foundation for 
-            comfort and style in your home. Our commitment to precision and durability means 
-            our flooring solutions not only meet but exceed your expectations, providing a 
-            sturdy and stylish base for your everyday life.`,
+      "Elevate Your Space with Expert Laminate and Vinyl Flooring Installation and Repair.",
+    desc: ` Step into a realm of refined sophistication with DeniCrafts, where we specialize 
+            in the expert installation and repair of laminate and vinyl flooring. Our skilled 
+            craftsmen go beyond traditional service, seamlessly blending precision and artistry 
+            to elevate your space. Whether it's enhancing the allure of laminate or perfecting 
+            the resilience of vinyl, our dedicated team ensures a transformative experience. 
+            Trust DeniCrafts to bring a touch of elegance underfoot, creating a foundation 
+            that not only stands the test of time but also adds a distinct layer of style to 
+            your living spaces. Your floors, our expertise – a harmonious combination for a space 
+            that truly reflects your vision.`,
   },
   {
-    name: "Custom Woodwork",
-    tagline: "Crafting Unique Wooden Features Tailored to Your Specifications",
-    desc: ` At our carpentry workshop, we take pride in our ability to bring your design dreams 
-            to life through our custom woodwork services. Whether you envision a one-of-a-kind 
-            entertainment unit, a bespoke dining table, or intricate wooden detailing adorning
-            your home, our skilled carpenters are up to the task. We see carpentry as an art form,
-             combining creativity and craftsmanship to deliver pieces that go beyond mere 
-             functionality. Each project is a collaborative journey, ensuring the final product 
-             aligns seamlessly with your vision and lifestyle. Let us transform your ideas into 
-             tangible, beautifully crafted wooden masterpieces.`,
+    name: "Painting",
+    image: "/images/paint.jpeg",
+    tagline:
+      "Brushing Dreams to Life: Immerse Your Space in Vibrant Colors with DeniCrafts.",
+    desc: ` Unlock a world of artistic expression with DeniCrafts' Painting Service. 
+            Our skilled craftsmen don't just paint; they bring your visions to life, 
+            transforming walls into canvases of vibrant expression. With meticulous attention to 
+            detail and a palette of premium paints, we turn every stroke into a masterpiece. 
+            Whether it's a residential haven or a commercial space, DeniCrafts promises to add a 
+            splash of personality and warmth to your surroundings. Trust us to not just paint walls 
+            but to craft an ambiance that resonates with your unique style and elevates your space 
+            to new heights. Your dream colors, our expert touch – let the transformation begin`,
   },
   {
-    name: "Outdoor Structures",
+    name: "Rhinolite and Plastering",
+    image: "/images/rhino.jpeg",
     tagline:
-      "Transformative Design and Construction of Decks, Patios, and Pergolas",
-    desc: ` Immerse yourself in the outdoor living experience with our expertise in designing 
-            and constructing transformative outdoor structures. From inviting decks that 
-            seamlessly extend your home to cozy patios that become retreats, and stylish pergolas 
-            that add both charm and shade, our carpenters create structures that harmonize with 
-            your surroundings. Recognizing the significance of outdoor spaces, we strive to 
-            craft structures that enhance your lifestyle. Our approach combines functionality 
-            with aesthetic appeal, providing you with an outdoor retreat that is both practical
-            and visually stunning.`,
+      "Sculpting Perfection: Elevate Your Walls with Expert Rhinolite and Plastering by DeniCrafts.",
+    desc: ` Experience the art of precision with DeniCrafts' Rhinolite and Plastering service. 
+            Our craftsmen sculpt more than walls; they carve a foundation of perfection that stands 
+            the test of time. With a commitment to flawless finishes and durable surfaces, 
+            we transform your spaces into a seamless blend of sophistication and resilience. 
+            Whether it's a renovation project or a new endeavor, DeniCrafts ensures a meticulous 
+            application of Rhinolite and Plastering, leaving your walls with a touch of artistry 
+            and a lasting impression. Trust us to bring a sense of refinement and durability to 
+            every surface – your walls, our expertise.`,
   },
 ];
 export const portfolio = [

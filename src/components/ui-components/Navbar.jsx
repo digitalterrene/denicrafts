@@ -4,7 +4,13 @@ import { usePathname } from "next/navigation";
 import React from "react";
 import { IoMdMenu } from "react-icons/io";
 import { MdOutlineClear } from "react-icons/md";
-const routes = ["home", "about-us", "services", "portfolio", "contact-us"];
+const routes = [
+  "home",
+  "about-us",
+  "services",
+  //  "portfolio",
+  "contact-us",
+];
 export default function Navbar() {
   const [openRight, setOpenRight] = React.useState(false);
   const pathname = usePathname();

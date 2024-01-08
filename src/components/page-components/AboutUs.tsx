@@ -21,18 +21,19 @@ export default function AboutUs() {
           <p className="text-[#B88A4D]">FEATURES</p>
           <p className="text-3xl mb-4 font-bold">WHO WE ARE</p>
           <p className="font-medium text-gray-700 mb-4">
-            These are the voyages of the Starship Enterprise., Were gonna do it.
-            Give us any chance well take it. Give us any rule we'll break it.
+            DeniCrafts, a premier carpentry contractor based in Johannesburg
           </p>
-          <p className="  text-gray-400 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
-            tempore commodi vitae similique id perferendis vero, laborum ducimus
-            saepe consectetur, natus ea! Maiores tempora necessitatibus,
-            voluptate temporibus. Et aliquid at sunt voluptate laudantium nihil
-            iure fugit quibusdam esse distinctio eius voluptates, illo eveniet
-            tempore. Amet dolorem, exercitationem blanditiis aperiam numquam
-            accusamus repellendus? exercitationem quae modi. A sit aperiam rem
-            iusto eos voluptas.
+          <p className="  text-gray-500 mb-4">
+            is dedicated to delivering exceptional craftsmanship and
+            transformative carpentry solutions. Specializing in a diverse range
+            of services, we bring life to spaces through custom woodwork,
+            intricate built-in solutions, and precise installations of doors,
+            ceilings, and flooring. Our commitment to excellence extends to
+            every project, whether it's a residential renovation, commercial
+            upgrade, or crafting unique pieces of furniture. At DeniCrafts, we
+            merge passion and proficiency, ensuring that each client experiences
+            the unparalleled artistry of carpentry tailored to their individual
+            needs.
           </p>
           <button className="py-2 px-6 bg-[#B88A4D] text-white">
             Contact Us Now
@@ -49,10 +50,10 @@ export default function AboutUs() {
           {" "}
           <p className="text-4xl font-bold text-white">073 910 6660</p>
           <p className="lg:text-2xl font-bold text-center lg:w-7/12 text-white">
-            FEEL FREE TO CONTACT US. WE ARE ALWAYS HERE TO MAKE YOUR CAR MORE
-            LUXURY THAN BEFORE
+            FEEL FREE TO CONTACT US. WE ARE ALWAYS HERE TO CATER FOR YOUR
+            CARPENTRY REQUESTS
           </p>
-          <div className=" flex items-center gap-4">
+          {/* <div className=" flex items-center gap-4">
             <a className="border text-white hover:bg-white hover:text-[#B88A4D] px-6 py-2 uppercase">
               {" "}
               get in touch
@@ -61,7 +62,7 @@ export default function AboutUs() {
               {" "}
               quick quote
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* Features (why choose us) section starts here */}{" "}
