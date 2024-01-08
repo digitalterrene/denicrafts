@@ -72,7 +72,7 @@ export default function ServicesTabs() {
                 </button>
               </div>{" "}
               <img
-                className="h-[500px] w-[450px] object-center object-cover "
+                className="h-[500px] w-full md:w-full  lg:w-[450px] object-center object-cover "
                 src={image}
               />
             </div>

@@ -30,7 +30,7 @@ export const services = [
             that truly reflects your vision.`,
   },
   {
-    name: "Painting",
+    name: "Painting & Varnishing",
     image: "/images/paint.jpeg",
     tagline:
       "Brushing Dreams to Life: Immerse Your Space in Vibrant Colors with DeniCrafts.",
@@ -44,7 +44,7 @@ export const services = [
             to new heights. Your dream colors, our expert touch – let the transformation begin`,
   },
   {
-    name: "Rhinolite and Plastering",
+    name: "Rhinolite & Plastering",
     image: "/images/rhino.jpeg",
     tagline:
       "Sculpting Perfection: Elevate Your Walls with Expert Rhinolite and Plastering by DeniCrafts.",

@@ -14,7 +14,7 @@ export default function AboutUs() {
       </div>
       <div className="lg:flex gap-20 py-10 max-w-6xl mx-auto ">
         <img
-          className="h-[500px] w-[450px] object-center object-cover "
+          className="h-[500px] md:w-full w-full lg:w-[450px] object-center object-cover "
           src="https://images.unsplash.com/photo-1687422810663-c316494f725a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBjYXJwZW50ZXJ8ZW58MHx8MHx8fDA%3D"
         />
         <div className="p-8 lg:p-0">
@@ -73,8 +73,11 @@ export default function AboutUs() {
           <p className="text-3xl">WHY CHOOSE US</p>
           <WhyChooseUsAccordion />
         </div>
-        <div className="lg:w-1/3  ">
-          <img src="https://img.freepik.com/free-photo/car-being-taking-care-workshop_23-2149580604.jpg?size=626&ext=jpg&uid=R86751016&ga=GA1.1.1135384207.1703006759&semt=ais" />
+        <div className="lg:w-1/3 w-full md:w-full ">
+          <img
+            className="w-full object-cover object-center"
+            src="https://img.freepik.com/free-photo/car-being-taking-care-workshop_23-2149580604.jpg?size=626&ext=jpg&uid=R86751016&ga=GA1.1.1135384207.1703006759&semt=ais"
+          />
         </div>
       </div>
       {/* Features (why choose us) section ends here */}

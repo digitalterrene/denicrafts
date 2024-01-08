@@ -177,8 +177,11 @@ export default function HomePage() {
           <p className="text-3xl">WHY CHOOSE US</p>
           <WhyChooseUsAccordion />
         </div>
-        <div className="lg:w-1/3  ">
-          <img src="https://img.freepik.com/free-photo/car-being-taking-care-workshop_23-2149580604.jpg?size=626&ext=jpg&uid=R86751016&ga=GA1.1.1135384207.1703006759&semt=ais" />
+        <div className="lg:w-1/3 w-full md:w-full ">
+          <img
+            className="w-full object-cover object-center"
+            src="https://img.freepik.com/free-photo/car-being-taking-care-workshop_23-2149580604.jpg?size=626&ext=jpg&uid=R86751016&ga=GA1.1.1135384207.1703006759&semt=ais"
+          />
         </div>
       </div>
       {/* Features (why choose us) section ends here */}
