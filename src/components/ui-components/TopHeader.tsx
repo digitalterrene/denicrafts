@@ -25,7 +25,7 @@ export default function TopHeader() {
         </div>
         <div className="flex gap-3 text-sm items-center">
           <MdOutlineEmail className="" />
-          <p>info@denicrafts.co.za</p>
+          <p>dennis.muzamana@gmail.com</p>
         </div>
       </div>
       <div className="flex items-center gap-4">
